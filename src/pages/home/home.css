@@ -54,6 +54,9 @@
   .home-container {
     position: relative;
   }
+  .home-container .middile_box {
+    padding-top: 0rem;
+  }
   .home-container .name {
     font-size: 9vw;
     line-height: 3rem;
