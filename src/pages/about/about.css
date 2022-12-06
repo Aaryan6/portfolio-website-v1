@@ -1,0 +1,91 @@
+.about-container {
+  background: #071324;
+  color: #ccd6f6;
+  padding: 0;
+  z-index: 50;
+  position: relative;
+  top: 0;
+}
+.about-container .wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 7rem 3rem;
+}
+.about-container .wrapper .left_about {
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.about-container .wrapper .left_about .span1 {
+  color: #64ffda;
+}
+.about-container .wrapper .left_about .span2 {
+  color: #ccd6f6;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.about-container .wrapper .left_about p {
+  width: 85%;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+.right_about {
+  position: relative;
+}
+.right_about img {
+  max-width: 250px;
+  aspect-ratio: 3 / 3.8;
+  object-fit: cover;
+  position: relative;
+  z-index: 22;
+}
+.right_about .outline {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  aspect-ratio: 3 / 3.8;
+  border: 2px solid #64ffda;
+  margin: 2rem;
+}
+.left_about .skills span {
+  font-size: 1.3rem;
+  font-weight: 500;
+  position: relative;
+}
+.left_about .skills span::before {
+  content: "";
+  width: 120px;
+  height: 1px;
+  background: #64ffda;
+  position: absolute;
+  bottom: -5px;
+}
+.left_about .skills .image-lang {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  max-width: 250px;
+  padding-top: 1rem;
+}
+.left_about .skills .lang-icons {
+  font-size: 2.2rem;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-container .wrapper {
+    flex-direction: column-reverse;
+    padding: 5rem 3rem;
+  }
+  .right_about img {
+    max-width: 200px;
+    margin-bottom: 4rem;
+  }
+  .right_about .outline {
+    width: 200px;
+  }
+  .about-container .wrapper .left_about p {
+    width: 100%;
+  }
+}

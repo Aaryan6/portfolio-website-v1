@@ -1,0 +1,30 @@
+.email-container {
+  position: fixed;
+  right: 0rem;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 8rem;
+  z-index: 100;
+}
+.email-container .email {
+  color: #ccd6f6;
+  transform: rotate(90deg);
+  margin: 8rem 0;
+  font-size: 0.8rem;
+}
+.email-container .email:hover {
+  color: #64ffda;
+}
+.email-container .line {
+  width: 2px;
+  height: 100px;
+  background: #64ffda;
+}
+
+@media screen and (max-width: 1000px) {
+  .email-container {
+    display: none;
+  }
+}
