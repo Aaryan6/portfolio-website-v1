@@ -9,6 +9,9 @@
   margin: 0 1.8rem;
   font-size: 1.2rem;
 }
+.footer-container span a {
+  color: #ccd6f6;
+}
 .footer-container .subtitle {
   font-size: 0.8rem;
 }
