@@ -27,7 +27,7 @@ const Home = () => {
             />
           </span>
         </span>
-        <a href="mailto:aaryanpatel6211120@gmail.com">
+        <a href="mailto:aaryanpatel683@gmail.com">
           <button>Let's Connect</button>
         </a>
       </div>
