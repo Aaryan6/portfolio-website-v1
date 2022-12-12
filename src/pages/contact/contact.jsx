@@ -11,7 +11,7 @@ const Contact = () => {
           intern by remote work. My inbox is always open, whether you have any
           work just message me.
         </p>
-        <a href="mailto:aaryanpatel6211120@gmail.com">
+        <a href="mailto:aaryanpatel683@gmail.com">
           <button>Say Hello👋🏻</button>
         </a>
       </div>
